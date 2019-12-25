@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anjungan Nusantara</title>
     <!--Core CSS-->
-    <link rel="stylesheet" id="bulma" href="<?php echo base_url()?>assets/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/core_green.css">
+    <link rel="stylesheet" id="bulma" href="<?php echo base_url()?>assets/assetsbulma/css/bulma.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/core_green.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <!-- Plugins css -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/js/slick-carousel/slick.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/js/slick-carousel/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/js/ggpopover/ggtooltip.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/js/slick-carousel/slick.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/js/slick-carousel/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/js/ggpopover/ggtooltip.css">
     <!-- Icons -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/icons.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/icons.min.css">
     <!-- Core JS -->
-    <script src="<?php echo base_url()?>assets/js/core/jquery.min.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/core/jquery.min.js"></script>
     
 </head>
 <body>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="column is-9 is-offset-1">
                         <figure class="image is-3by2">
-                            <img class="clean-hero-mockup mt-80 z-index-2" src="<?php echo base_url()?>assets/images/illustrations/mockups/landing1/macbook-app.png" alt="">
+                            <img class="clean-hero-mockup mt-80 z-index-2" src="<?php echo base_url()?>assets/assetsbulma/images/illustrations/mockups/landing1/macbook-app.png" alt="">
                         </figure>
                     </div>
 
@@ -147,7 +147,7 @@
                             <!-- Icon box -->
                             <div class="column is-6">
                                 <div class="flex-card icon-card light-bordered hover-inset padding-20">
-                                    <img src="<?php echo base_url()?>assets/images/logo/frame-with-photo.svg" alt="">
+                                    <img src="<?php echo base_url()?>assets/assetsbulma/images/logo/frame-with-photo.svg" alt="">
                                     <div class="icon-card-text is-clean mt-10">
                                         Souvenir
                                     </div>
@@ -156,7 +156,7 @@
                             <!-- Icon box -->
                             <div class="column is-6">
                                 <div class="flex-card icon-card light-bordered hover-inset padding-20">
-                                    <img src="<?php echo base_url()?>assets/images/logo/fast-food.svg" alt="">
+                                    <img src="<?php echo base_url()?>assets/assetsbulma/images/logo/fast-food.svg" alt="">
                                     <div class="icon-card-text is-clean mt-10">
                                         Makanan & Oleh-oleh
                                     </div>
@@ -165,7 +165,7 @@
                             <!-- Icon box -->
                             <div class="column is-6">
                                 <div class="flex-card icon-card light-bordered hover-inset padding-20">
-                                    <img src="<?php echo base_url()?>assets/images/logo/shirt.svg" alt="">
+                                    <img src="<?php echo base_url()?>assets/assetsbulma/images/logo/shirt.svg" alt="">
                                     <div class="icon-card-text is-clean mt-10">
                                         Pakaian
                                     </div>
@@ -174,7 +174,7 @@
                             <!-- Icon box -->
                             <div class="column is-6">
                                 <div class="flex-card icon-card light-bordered hover-inset padding-20">
-                                    <img src="<?php echo base_url()?>assets/images/logo/electronics.svg" alt="">
+                                    <img src="<?php echo base_url()?>assets/assetsbulma/images/logo/electronics.svg" alt="">
                                     <div class="icon-card-text is-clean mt-10">
                                         Furniture
                                     </div>
@@ -872,7 +872,7 @@
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-logo">
-                            <img src="<?php echo base_url()?>assets/images/logos/bulkit-logo.png" alt="">
+                            <img src="<?php echo base_url()?>assets/assetsbulma/images/logos/bulkit-logo.png" alt="">
                         </div>
                         <div class="footer-header">
                             <nav class="level is-mobile">
@@ -907,14 +907,14 @@
 
     
     <!-- Core js -->
-    <script src="<?php echo base_url()?>assets/js/core/modernizr.min.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/core/modernizr.min.js"></script>
     <!-- Plugins js -->
-    <script src="<?php echo base_url()?>assets/js/slick-carousel/slick.min.js"></script>
-    <script src="<?php echo base_url()?>assets/js/ggpopover/ggtooltip.js"></script>
-    <script src="<?php echo base_url()?>assets/js/scrollreveal/scrollreveal.min.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/slick-carousel/slick.min.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/ggpopover/ggtooltip.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/scrollreveal/scrollreveal.min.js"></script>
     <!-- Bulkit js -->
-    <script src="<?php echo base_url()?>assets/js/main.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/main.js"></script>
     <!-- Page specific JS -->
-    <script src="<?php echo base_url()?>assets/js/pages/landingv1.js"></script>
+    <script src="<?php echo base_url()?>assets/assetsbulma/js/pages/landingv1.js"></script>
 </body>
 </html>

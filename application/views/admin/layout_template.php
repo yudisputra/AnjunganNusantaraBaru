@@ -828,8 +828,8 @@
                     <li class="have-children active"><a class="parent-link" href="#"><span class="material-icons">group</span>Manajemen Produk</a>
                         <ul style="display: block;">
                             <li><a href="<?php echo base_url() ?>admin/mpr_kategoridansubkategori">Kategori dan Subkategori</a></li>
-                            <li><a href="javascript:void(0);">Daftar UKM</a></li>
-                            <li><a href="javascript:void(0);">Daftar Produk</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpr_daftarukm">Daftar UKM</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpr_daftarproduk">Daftar Produk</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -839,9 +839,9 @@
                 <ul id="manajemen-penjualan-menu" class="sidebar-menu animated preFadeInRIght fadeInRight">
                     <li class="have-children active"><a class="parent-link" href="#"><span class="material-icons">grid_on</span>Manajemen Penjualan</a>
                         <ul style="display: block;">
-                            <li><a href="javascript:void(0);">Daftar Bank</a></li>
-                            <li><a href="javascript:void(0);">Daftar Pesanan</a></li>
-                            <li><a href="javascript:void(0);">Daftar Grafik Penjualan</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpj_daftarbank">Daftar Bank</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpj_daftarpesanan">Daftar Pesanan</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpj_daftargrafikpenjualan">Daftar Grafik Penjualan</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -1068,11 +1068,9 @@
                             <!-- Main content -->
                             <div id="main-dashboard" class="section-wrapper">
                                 <!-- Content -->
-                                <div class="columns dashboard-columns">
-                                    
+
                                     <?php $this->load->view($content); ?>
                                         
-                                </div>
                                 <!-- /Content -->
                                 
                             </div>

@@ -2,7 +2,14 @@
     <!-- Content Column -->
     <div class="column is-12">
         <div class="flex-card light-raised">
-            <h3 class="card-heading">Manajemen Akun Pembeli <a class="button btn-dash primary-btn raised ripple is-pulled-right modal-trigger" data-modal="horizontal-form-modal">Tambah Data</a></h3>
+            <h3 class="card-heading">Daftar UKM
+                <a class="button btn-dash primary-btn raised ripple is-pulled-right modal-trigger" data-modal="horizontal-form-modal">
+                    <i class="fa fa-plus-circle"></i> Tambah Subkategori
+                </a>
+                <a class="button btn-dash primary-btn raised ripple is-pulled-right modal-trigger mr-10" data-modal="horizontal-form-modal">
+                    <i class="fa fa-plus-circle"></i> Tambah Kategori
+                </a>
+            </h3>
             <div class="card-body is-responsive mb-30">
                 <table id="fullfeatures" class="table is-striped is-bordered" cellspacing="0" width="100%">
                     <thead>
@@ -741,8 +748,8 @@
                 <h2 class="title is-4 text-bold mb-40">Data Pofil dan Data Login Baru</h2><div class="navigation-tabs animated-tabs simple-tabs">
                     <div class="tabs">
                         <ul>
-                            <li class="is-active" data-tab="tab-e1"><a>First tab</a></li>
-                            <li data-tab="tab-e2"><a>Second tab</a></li>
+                            <li class="is-active" data-tab="tab-e1"><a>Data Profil</a></li>
+                            <li data-tab="tab-e2"><a>Data Login</a></li>
                         </ul>
                     </div>
                     <div id="tab-e1" class="navtab-content is-active">

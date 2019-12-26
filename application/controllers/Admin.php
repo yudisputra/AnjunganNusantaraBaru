@@ -56,7 +56,56 @@
             $this->load->view('admin/layout_template', $data);
         }
 
+        public function mpr_daftarukm()
+        {   
+            $data=[
+                'content' => "admin/mpr-daftarukm_view",
+                'data' => array()
+            ];
+
+            $this->load->view('admin/layout_template', $data);
+        }
+
+        public function mpr_daftarproduk()
+        {   
+            $data=[
+                'content' => "admin/mpr-daftarproduk_view",
+                'data' => array()
+            ];
+
+            $this->load->view('admin/layout_template', $data);
+        }
+
         //Manajemen Penjualan
+        public function mpj_daftarbank()
+        {   
+            $data=[
+                'content' => "admin/mpj-daftarbank_view",
+                'data' => array()
+            ];
+
+            $this->load->view('admin/layout_template', $data);
+        }
+
+        public function mpj_daftarpesanan()
+        {   
+            $data=[
+                'content' => "admin/mpj-daftarpembelian_view",
+                'data' => array()
+            ];
+
+            $this->load->view('admin/layout_template', $data);
+        }
+
+        public function mpj_daftargrafikpenjualan()
+        {   
+            $data=[
+                'content' => "admin/mpj-daftargrafikpenjualan_view",
+                'data' => array()
+            ];
+
+            $this->load->view('admin/layout_template', $data);
+        }
     }
     
 ?>

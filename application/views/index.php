@@ -59,10 +59,10 @@
                                     Kategori
                                 </a>
                                 <span class="nav-item">
-                                    <a id="signup-btn" href="#" class="button button-signup btn-outlined is-bold btn-align light-btn">
+                                    <a id="signup-btn" href="<?php base_url() ?>Login/" class="button button-signup btn-outlined is-bold btn-align light-btn">
                                         Masuk
                                     </a>
-                                    <a id="signup-btn" href="#" class="button button-signup is-bold btn-align light-btn">
+                                    <a id="signup-btn" href="<?php base_url() ?>Daftar/" class="button button-signup is-bold btn-align light-btn">
                                         Daftar
                                     </a>
                                 </span>
@@ -318,9 +318,8 @@
                                 <div class="card-content">
                                     <div class="media">
                                         <div class="media-content">
-                                            <a href="#" class="color-primary">Kripik Tempe Asli Malang</a>
+                                            <a href="<?php base_url() ?>Detail/" class="color-primary">Kripik Tempe Asli Malang</a>
                                             <p class="subtitle is-6">Rp. 60.000</p>
-
                                         </div>
                                     </div>
                                 </div>

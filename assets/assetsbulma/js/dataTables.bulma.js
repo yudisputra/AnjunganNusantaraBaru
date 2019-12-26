@@ -160,7 +160,7 @@ DataTable.ext.renderer.pageButton.bulma = function ( settings, host, idx, button
 	catch (e) {}
 
 	attach(
-		$(host).empty().html('<ul class="pagination is-right"/>').children('ul'),
+		$(host).empty().html('<ul class="pagination is-pulled-right"/>').children('ul'),
 		buttons
 	);
 

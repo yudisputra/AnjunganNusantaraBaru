@@ -9,7 +9,7 @@
         <!-- Core css -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/bulma.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/dashboard.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/app.css">
+        <link rel="stylesheet" href="<?php echo base_url()?>assets/assetsbulma/css/is-awesome.css">
         <!-- Icons -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/css/icons.min.css">
         <!-- Plugins css -->
@@ -20,9 +20,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/js/chosen/chosen.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/assetsbulma/js/jqvmap/jqvmap.min.css">
 
-        <link rel="stylesheet" href="<?php echo base_url()?>assets/assetsbulma/css/is-awesome.css">
-        <link rel="stylesheet" href="<?php echo base_url()?>assets/assetsbulma/css/bulma.min.css">
-        <link rel="stylesheet" href="<?php echo base_url()?>assets/assetsbulma/css/dataTables.bulma.min.css">
+        
 
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
@@ -829,7 +827,7 @@
                 <ul id="manajemen-produk-menu" class="sidebar-menu animated preFadeInRIght fadeInRight">
                     <li class="have-children active"><a class="parent-link" href="#"><span class="material-icons">group</span>Manajemen Produk</a>
                         <ul style="display: block;">
-                            <li><a href="javascript:void(0);">Kategori dan Subkategori</a></li>
+                            <li><a href="<?php echo base_url() ?>admin/mpr_kategoridansubkategori">Kategori dan Subkategori</a></li>
                             <li><a href="javascript:void(0);">Daftar UKM</a></li>
                             <li><a href="javascript:void(0);">Daftar Produk</a></li>
                         </ul>
@@ -1069,7 +1067,14 @@
                         <div class="column">
                             <!-- Main content -->
                             <div id="main-dashboard" class="section-wrapper">
-                                <?php $this->load->view($content); ?>
+                                <!-- Content -->
+                                <div class="columns dashboard-columns">
+                                    
+                                    <?php $this->load->view($content); ?>
+                                        
+                                </div>
+                                <!-- /Content -->
+                                
                             </div>
                             <!-- /Main content -->
                         </div>
@@ -1512,8 +1517,8 @@
         
         <script src="<?php echo base_url()?>assets/assetsbulma/js/app.js"></script>
         <script src="<?php echo base_url()?>assets/assetsbulma/js/sample-data.js"></script>
-        <script src="<?php echo base_url()?>assets/assetsbulma/js/jquery.dataTables.min.js"></script>
-        <script src="<?php echo base_url()?>assets/assetsbulma/js/dataTables.bulma.min.js"></script>
+        <script src="<?php echo base_url()?>assets/assetsbulma/js/jquery.dataTables.js"></script>
+        <script src="<?php echo base_url()?>assets/assetsbulma/js/dataTables.bulma.js"></script>
         <script>
             $(document).ready(function() {
                 $('#nofeatures').DataTable({

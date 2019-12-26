@@ -1086,7 +1086,7 @@ div.dataTables_wrapper div.dataTables_processing {
 
 .button.button-page {
   color: #00d1b2;
-  margin-right: 4px; }
+  margin-left: 4px; }
   .button.button-page.disabled {
     background: #dbdbdb;
     color: #7a7a7a;
